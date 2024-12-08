@@ -64,7 +64,7 @@ comp=0
 while play==True:
     score, comp= game(score=score, comp=comp)
     
-    choice= int(input(f"Do you want to continue\n  1 for Continue \n 2 for exit"))
+    choice= int(input(f"Do you want to continue\n  1 for Continue \n 2 for exit\n"))
     if choice== 1:
         score, comp= game(score=score, comp=comp)
     else:
